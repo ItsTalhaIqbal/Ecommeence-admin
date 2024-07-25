@@ -77,7 +77,7 @@ const Charts = () => {
         <div className="flex justify-between items-center mb-4">
           <div>
             <h3 className="text-lg font-bold">Total Profit</h3>
-            <p>{totalProfit}</p>
+            <p>{totalProfit}$</p>
           </div>
           <div>
             <h3 className="text-lg font-bold">Duration</h3>

@@ -10,7 +10,7 @@ export default function Layout({children}) {
     return (
       <div className="bg-bgGray w-screen h-screen flex items-center">
         <div className="text-center w-full">
-          <h2 className="mb-4 text-2xl font-semibold">ADMIN LOGIN</h2>
+          <h2 className="mb-4 text-2xl ">ADMIN LOGIN</h2>
           <button onClick={() => signIn('google')} className="bg-gray-700 text-white p-2 px-4 rounded-lg">Login with Google</button>
         </div>
       </div>
