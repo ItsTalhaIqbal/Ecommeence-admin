@@ -10,13 +10,14 @@ function Categories({swal}) {
   const [categories,setCategories] = useState([]);
   const [properties,setProperties] = useState([]);
   useEffect(() => {
-    fetchCategories();
-  }, [])
-  function fetchCategories() {
+     function fetchCategories() {
     axios.get('/api/categories').then(result => {
       setCategories(result.data);
     });
   }
+    fetchCategories();
+  }, [])
+ 
   async function saveCategory(ev){
     ev.preventDefault();
     const data = {
